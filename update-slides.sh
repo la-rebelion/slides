@@ -5,13 +5,14 @@ set -e
 SLIDES_DIR="$(dirname "$0")"
 README="$SLIDES_DIR/README.md"
 TMP_LIST="$SLIDES_DIR/.slides-list.tmp"
+DOMAIN="https://slides.rebelion.la"
 
 # Find all .html files (excluding index.html if present)
 find "$SLIDES_DIR" -maxdepth 1 -type f -name '*.html' ! -name 'index.html' | sort | while read -r file; do
   fname=$(basename "$file")
   # Generate a human-friendly title from the filename
   title=$(echo "$fname" | sed -E 's/[-_]/ /g; s/\.html$//; s/\b\w/\u&/g')
-  echo "- [${title}](${fname})"
+  echo "- [${title}](${DOMAIN}/${fname})"
 done > "$TMP_LIST"
 
 # Replace the SLIDES-LIST section in README.md

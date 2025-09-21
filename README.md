@@ -5,7 +5,7 @@ Welcome to "[La Rebelion](https://rebelion.la)" **Slides** repository! Here you'
 ## 📚 Available Slide Decks
 
 <!-- SLIDES-LIST:START -->
-- [From APIs To AI Easy And Fast Marp](From-APIs-to-AI-easy-and-fast-marp.html)
+- [From APIs To AI Easy And Fast Marp](https://slides.rebelion.la/From-APIs-to-AI-easy-and-fast-marp.html)
 <!-- SLIDES-LIST:END -->
 
 ---
