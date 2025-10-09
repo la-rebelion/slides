@@ -6,8 +6,9 @@ Welcome to "[La Rebelion](https://rebelion.la)" **Slides** repository! Here you'
 
 <!-- SLIDES-LIST:START -->
 - [From APIs To AI Easy And Fast Marp](https://slides.rebelion.la/From-APIs-to-AI-easy-and-fast-marp.html)
-- [Auth For MCP](https://slides.rebelion.la/auth-for-mcp.html)
+- [Auth For Mcp](https://slides.rebelion.la/auth-for-mcp.html)
 - [Introduccion Ai](https://slides.rebelion.la/introduccion-ai.html)
+- [OpenAI SDK Meets MCP](https://slides.rebelion.la/openai-sdk-meets-mcp.html)
 <!-- SLIDES-LIST:END -->
 
 ---
